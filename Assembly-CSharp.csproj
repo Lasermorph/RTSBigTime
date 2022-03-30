@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{C7926D28-0B59-18C1-9A89-BC2FA4A4A0FC}</ProjectGuid>
+    <ProjectGuid>{1B7B0887-7DA7-91BE-5228-A752CCF676DD}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -56,26 +56,26 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\CodeMonkey\Utils\Button_Sprite.cs" />
-    <Compile Include="Assets\CodeMonkey\MonoBehaviours\CameraFollow.cs" />
-    <Compile Include="Assets\CodeMonkey\Utils\FunctionPeriodic.cs" />
-    <Compile Include="Assets\CodeMonkey\Utils\UI_Sprite.cs" />
-    <Compile Include="Assets\CodeMonkey\Utils\World_Bar.cs" />
-    <Compile Include="Assets\CodeMonkey\Assets.cs" />
-    <Compile Include="Assets\CodeMonkey\MonoBehaviours\ComponentActions.cs" />
-    <Compile Include="Assets\CodeMonkey\Utils\UI_Bar.cs" />
-    <Compile Include="Assets\CodeMonkey\MonoBehaviours\PositionRendererSorter.cs" />
-    <Compile Include="Assets\CodeMonkey\Utils\UI_BarMultiple.cs" />
-    <Compile Include="Assets\CodeMonkey\Utils\World_Mesh.cs" />
-    <Compile Include="Assets\CodeMonkey\Utils\UtilsClass.cs" />
-    <Compile Include="Assets\CodeMonkey\CMDebug.cs" />
     <Compile Include="Assets\CodeMonkey\Utils\Button_UI.cs" />
+    <Compile Include="Assets\CodeMonkey\Utils\World_Mesh.cs" />
+    <Compile Include="Assets\CodeMonkey\Utils\UI_TextComplex.cs" />
+    <Compile Include="Assets\Scripts\GameHandler.cs" />
+    <Compile Include="Assets\CodeMonkey\Utils\Button_Sprite.cs" />
+    <Compile Include="Assets\CodeMonkey\MonoBehaviours\CameraFollowSetup.cs" />
+    <Compile Include="Assets\CodeMonkey\MonoBehaviours\CameraFollow.cs" />
+    <Compile Include="Assets\CodeMonkey\Assets.cs" />
+    <Compile Include="Assets\CodeMonkey\Utils\World_Sprite.cs" />
+    <Compile Include="Assets\CodeMonkey\Utils\World_Bar.cs" />
+    <Compile Include="Assets\CodeMonkey\Utils\UtilsClass.cs" />
+    <Compile Include="Assets\CodeMonkey\MonoBehaviours\PositionRendererSorter.cs" />
     <Compile Include="Assets\CodeMonkey\Utils\FunctionUpdater.cs" />
     <Compile Include="Assets\CodeMonkey\Utils\FunctionTimer.cs" />
-    <Compile Include="Assets\Scripts\GameHandler.cs" />
-    <Compile Include="Assets\CodeMonkey\Utils\World_Sprite.cs" />
-    <Compile Include="Assets\CodeMonkey\MonoBehaviours\CameraFollowSetup.cs" />
-    <Compile Include="Assets\CodeMonkey\Utils\UI_TextComplex.cs" />
+    <Compile Include="Assets\CodeMonkey\Utils\UI_Bar.cs" />
+    <Compile Include="Assets\CodeMonkey\MonoBehaviours\ComponentActions.cs" />
+    <Compile Include="Assets\CodeMonkey\Utils\UI_Sprite.cs" />
+    <Compile Include="Assets\CodeMonkey\Utils\UI_BarMultiple.cs" />
+    <Compile Include="Assets\CodeMonkey\CMDebug.cs" />
+    <Compile Include="Assets\CodeMonkey\Utils\FunctionPeriodic.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\CodeMonkey\README.txt" />
@@ -729,19 +729,19 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Unity.2D.Tilemap.Editor.csproj">
-      <Project>{AFC1D0F7-7BA6-C6FD-2B2D-9627BC2A6880}</Project>
+      <Project>{1BDBDBA4-2657-2BFC-B36E-E8859103044D}</Project>
       <Name>Unity.2D.Tilemap.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.2D.Sprite.Editor.csproj">
-      <Project>{4E03CA8F-672D-E53A-1127-92E66BB9EC48}</Project>
+      <Project>{DDCBC338-4106-46F7-333F-E49713DD7046}</Project>
       <Name>Unity.2D.Sprite.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.UI.csproj">
-      <Project>{670C4A17-34F9-52F8-E478-D8A596DA751A}</Project>
+      <Project>{FE9E15A7-F33E-FC20-A3DB-7234D9FD689F}</Project>
       <Name>UnityEditor.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{3D51238B-75C7-FA87-CAEF-CFCD318225D0}</Project>
+      <Project>{FAD04D6D-DBA2-EAEE-6C6A-D9C10A64334F}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
   </ItemGroup>

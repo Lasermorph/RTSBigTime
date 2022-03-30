@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{C0E8F8EA-85CE-57E5-DAFB-F14FF1E72A40}</ProjectGuid>
+    <ProjectGuid>{78189D99-47EC-0E98-FA15-3B98CDD08064}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -56,26 +56,26 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\CodeMonkey\Utils\Button_Sprite.cs" />
-    <Compile Include="Assets\CodeMonkey\MonoBehaviours\CameraFollow.cs" />
-    <Compile Include="Assets\CodeMonkey\Utils\FunctionPeriodic.cs" />
-    <Compile Include="Assets\CodeMonkey\Utils\UI_Sprite.cs" />
-    <Compile Include="Assets\CodeMonkey\Utils\World_Bar.cs" />
-    <Compile Include="Assets\CodeMonkey\Assets.cs" />
-    <Compile Include="Assets\CodeMonkey\MonoBehaviours\ComponentActions.cs" />
-    <Compile Include="Assets\CodeMonkey\Utils\UI_Bar.cs" />
-    <Compile Include="Assets\CodeMonkey\MonoBehaviours\PositionRendererSorter.cs" />
-    <Compile Include="Assets\CodeMonkey\Utils\UI_BarMultiple.cs" />
-    <Compile Include="Assets\CodeMonkey\Utils\World_Mesh.cs" />
-    <Compile Include="Assets\CodeMonkey\Utils\UtilsClass.cs" />
-    <Compile Include="Assets\CodeMonkey\CMDebug.cs" />
     <Compile Include="Assets\CodeMonkey\Utils\Button_UI.cs" />
+    <Compile Include="Assets\CodeMonkey\Utils\World_Mesh.cs" />
+    <Compile Include="Assets\CodeMonkey\Utils\UI_TextComplex.cs" />
+    <Compile Include="Assets\Scripts\GameHandler.cs" />
+    <Compile Include="Assets\CodeMonkey\Utils\Button_Sprite.cs" />
+    <Compile Include="Assets\CodeMonkey\MonoBehaviours\CameraFollowSetup.cs" />
+    <Compile Include="Assets\CodeMonkey\MonoBehaviours\CameraFollow.cs" />
+    <Compile Include="Assets\CodeMonkey\Assets.cs" />
+    <Compile Include="Assets\CodeMonkey\Utils\World_Sprite.cs" />
+    <Compile Include="Assets\CodeMonkey\Utils\World_Bar.cs" />
+    <Compile Include="Assets\CodeMonkey\Utils\UtilsClass.cs" />
+    <Compile Include="Assets\CodeMonkey\MonoBehaviours\PositionRendererSorter.cs" />
     <Compile Include="Assets\CodeMonkey\Utils\FunctionUpdater.cs" />
     <Compile Include="Assets\CodeMonkey\Utils\FunctionTimer.cs" />
-    <Compile Include="Assets\Scripts\GameHandler.cs" />
-    <Compile Include="Assets\CodeMonkey\Utils\World_Sprite.cs" />
-    <Compile Include="Assets\CodeMonkey\MonoBehaviours\CameraFollowSetup.cs" />
-    <Compile Include="Assets\CodeMonkey\Utils\UI_TextComplex.cs" />
+    <Compile Include="Assets\CodeMonkey\Utils\UI_Bar.cs" />
+    <Compile Include="Assets\CodeMonkey\MonoBehaviours\ComponentActions.cs" />
+    <Compile Include="Assets\CodeMonkey\Utils\UI_Sprite.cs" />
+    <Compile Include="Assets\CodeMonkey\Utils\UI_BarMultiple.cs" />
+    <Compile Include="Assets\CodeMonkey\CMDebug.cs" />
+    <Compile Include="Assets\CodeMonkey\Utils\FunctionPeriodic.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\CodeMonkey\README.txt" />
@@ -711,7 +711,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="UnityEngine.UI.Player.csproj">
-      <Project>{63A750FE-C094-3CB3-D56C-F317A5D08FA9}</Project>
+      <Project>{A0C21F6D-7667-7D88-E0D0-7784FDCB1CE4}</Project>
       <Name>UnityEngine.UI.Player</Name>
     </ProjectReference>
   </ItemGroup>
