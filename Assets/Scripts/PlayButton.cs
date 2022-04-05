@@ -2,13 +2,15 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class PlayButton : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()
     {
-        
+        Button playbtn = GetComponent<Button>();
+        playbtn.onClick.AddListener(onPressed);
     }
 
     // Update is called once per frame
@@ -16,9 +18,11 @@ public class PlayButton : MonoBehaviour
     {
         
     }
-    public void buttenPress()
+
+
+    void onPressed()
     {
-         SceneManager.LoadScene(sceneName: "GameScene");
+         SceneManager.LoadScene(1);
     }
 
 }
