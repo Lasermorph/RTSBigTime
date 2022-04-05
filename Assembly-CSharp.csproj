@@ -36,7 +36,8 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets/mainMenuScript.cs" />
+     <Compile Include="Assets/Scripts/mainMenuScript.cs" />
+     <Compile Include="Assets/Scripts/PlayButton.cs" />
     <Reference Include="UnityEngine">
         <HintPath>/home/stefan/Unity/Hub/Editor/2020.3.32f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
