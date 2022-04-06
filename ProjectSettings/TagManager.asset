@@ -45,6 +45,9 @@ TagManager:
   - name: GameObjects
     uniqueID: 1790582041
     locked: 0
+  - name: MainSettings
+    uniqueID: 3397075733
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
