@@ -3,4 +3,5 @@ obj/**
 Library/ArtifactDB-lock
 Library/SourceAssetDB-lock
 Logs/**
-
+*.suo
+Assembly-CSharp.csproj
