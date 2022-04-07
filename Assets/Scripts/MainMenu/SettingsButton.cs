@@ -20,6 +20,6 @@ public class SettingsButton : MonoBehaviour
     void Onpressed()
     {
         int sortingOrder = 0;
-        Canvas.sortingOrder = 0;
+        //Canvas.sortingOrder = 0; NOT ALLOWED IT REQURES AN OBJECT REFRENCE
     }
 }
