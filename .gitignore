@@ -3,4 +3,6 @@ obj/**
 Library/ArtifactDB-lock
 Library/SourceAssetDB-lock
 Logs/**
-
+Library/Artifacts/**
+*.pdb
+*.exe
