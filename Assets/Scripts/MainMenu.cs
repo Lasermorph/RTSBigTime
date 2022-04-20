@@ -1,11 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneMangagement;
+using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour
 {
-    public string firstLevet;
+    public string firstLevel;
     // Start is called before the first frame update
     void Start()
     {
