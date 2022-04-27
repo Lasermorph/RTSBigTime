@@ -32,6 +32,7 @@ public class OptionsScreen : MonoBehaviour
 
     public void ApplyGraphics()
     {
+        OptionsScreen.fullScreen = fullsreenTog.isOn;
 
         if (vsyncTog.isOn)
         {
