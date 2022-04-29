@@ -5,7 +5,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637849200760000000
+      ticks: 637868263080000000
     m_Hash: 1082240786
   m_LockFileStatus:
     m_FilePath: /home/steff/projects/Skole/RTSBigTime/Packages/packages-lock.json
@@ -13,7 +13,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637849200760000000
+      ticks: 637868263080000000
     m_Hash: 407264249
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
