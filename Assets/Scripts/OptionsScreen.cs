@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class OptionsScreen : MonoBehaviour
 {
@@ -11,6 +12,9 @@ public class OptionsScreen : MonoBehaviour
     public List<resItem> resulutions = new List<resItem>();
 
     private int selectedResolution;
+
+
+    public TMP_Text resulutionLabel;
     
 
     // Start is called before the first frame update
@@ -39,14 +43,32 @@ public class OptionsScreen : MonoBehaviour
 
     public void ResLeft()
     {
+        selectedResolution--;
+        if(selectedResolution < 0)
+        {
+            selectedResolution = 0;
+        }
 
+        UpdateResLabel();
     }
 
     public void ResRight()
     {
+        selectedResolution++;
+        if(selectedResolution >resulutions.Count -1)
+        {
+            selectedResolution = resulutions.Count -1;
 
+        } 
+        UpdateResLabel();
     }
 
+    public void UpdateResLabel()
+    {
+
+        resulutionLabel.text = resulutions[selectedResolution].horizontal.ToString()+ " x " + resulutions[selectedResolution].vertical.ToString(); 
+
+    }
 
     public void ApplyGraphics()
     {
