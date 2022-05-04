@@ -37,10 +37,8 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets/Scripts/MainMenu/mainMenuScript.cs" />
-     <Compile Include="Assets/Tiles/GrassTile.cs" />
-     <Compile Include="Assets/PlayerMovement.cs" />
+     <Compile Include="Assets/Scripts/GameSScript/PlayerMovement.cs" />
      <Compile Include="Assets/ExtendedFunctions.cs" />
-     <Compile Include="Assets/Scripts/GridManager.cs" />
     <Reference Include="UnityEngine">
         <HintPath>/home/steff/Unity/Hub/Editor/2021.3.1f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
